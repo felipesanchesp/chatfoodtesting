@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "cypress": "^7.1.0"
+  }
+}
