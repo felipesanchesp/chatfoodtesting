@@ -8,13 +8,6 @@ describe('ChatFoodTesting2', () => {
 	  // Should be on a new URL which includes '/movie/top-rated'
 	  cy.url().should('include', '/movie/top-rated')
 
-
-        //TO COMPLETE TESTING - DROPDOWN LIST//
-        .select('5', 'Release Date Ascending')
-        cy.contains('Rating Descending').click()
-        cy.get('select').select('[data-offset-index="5"]')
-
-        
         cy.get(':nth-child(2) > .name').click()
         cy.get('[data-value="99"]').click() //Genre - Documentary
 
